@@ -1,20 +1,21 @@
-<!---
-
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
 ## How it works
 
-Explain how your project works
+Este proyecto implementa un sistema RISC-V completo basado en el procesador FemtoRV32 "Quark". El sistema incluye:
+
+- **Procesador FemtoRV32**: Implementación mínima del set de instrucciones RV32I
+- **Memoria SPI Flash**: Para almacenamiento de programa
+- **Memoria SPI RAM**: Para memoria de datos
+- **Periférico UART**: Para comunicación serie
+- **Sistema de memoria mapeada**: Con direccionamiento para diferentes periféricos
 
 ## How to test
 
-Explain how to use your project
+1. **Programación**: El código se carga en la memoria SPI Flash
+2. **Comunicación**: Usa UART a 115200 baudios para comunicación
+3. **Operación**: El sistema ejecuta programas RISC-V desde la flash
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+- Memoria SPI Flash externa
+- Memoria SPI RAM externa  
+- Interface UART para comunicación
