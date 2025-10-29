@@ -1,14 +1,14 @@
 # Tiny Tapeout project information
 project:
   title: "FemtoRV32 RISC-V System"
-  author: "Tu Nombre"
-  discord: "tu_usuario"
+  author: "Jean Carlos Tascon"
+  discord: "Jack117"
   description: "Sistema RISC-V basado en FemtoRV32 con periféricos SPI y UART"
   language: "Verilog"
   clock_hz: 27000000
 
   # How many tiles your design occupies
-  tiles: "1x1"
+  tiles: "4x2"
 
   # Your top module name
   top_module: "tt_um_example"
